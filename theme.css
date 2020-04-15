@@ -1,0 +1,42 @@
+h1{
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+}
+
+p{
+  padding-bottom: 10px;
+}
+
+body {
+	display: flex;
+	height: 100vh;
+
+  color: white !important;
+}
+
+.btn{
+  background-color: white !important;
+  color: black !important;
+  border-color: white !important;
+  transition: 0.3s !important;
+  margin-top: 25vh;
+}
+.btn i{
+  color: #ff3f81 !important;
+  transition: 0.3s !important;
+}
+
+.btn:hover {
+  background-color: #ff3f81 !important;
+  border-color: #ff3f81 !important;
+  color: white !important;
+}
+
+.btn:hover i{
+  color: white !important;
+  transition: 0.3s !important;
+}
+
+.buttons{
+  margin-top: 20px !important;
+}
