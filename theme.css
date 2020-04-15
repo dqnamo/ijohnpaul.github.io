@@ -19,8 +19,23 @@ body {
   color: black !important;
   border-color: white !important;
   transition: 0.3s !important;
+
   margin-top: 25vh;
 }
+
+@media only screen and (max-width: 600px) {
+  .btn {
+    margin-top: 10vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+}
+
 .btn i{
   color: #ff3f81 !important;
   transition: 0.3s !important;
@@ -35,8 +50,4 @@ body {
 .btn:hover i{
   color: white !important;
   transition: 0.3s !important;
-}
-
-.buttons{
-  margin-top: 20px !important;
 }
